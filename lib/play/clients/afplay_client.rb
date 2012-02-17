@@ -5,6 +5,8 @@ module Play
     # Returns nothing
     def self.play(song_path)
       system("afplay", song_path)
+      exec("vlc --intf=rc -d --sout='#rtp{mux=ts,dst=239.255.1.1}'", song_path)
+      #system("echo play", song_path)
     end
 
     # The temp file we use to signify whether Play should be paused.

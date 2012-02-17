@@ -4,3 +4,9 @@ config/play.backup.yml
 db/*.sqlite3
 .sass-cache
 *.css
+
+play/play.xcodeproj/project.pbxproj
+
+play/play.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+
+play/play.xcodeproj/project.xcworkspace/xcuserdata/aaron.xcuserdatad/UserInterfaceState.xcuserstate
